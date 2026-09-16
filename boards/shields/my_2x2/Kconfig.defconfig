@@ -3,4 +3,10 @@ if SHIELD_MY_2X2
 config ZMK_KEYBOARD_NAME
     default "MY 2X2"
 
+config EC11
+    default y
+
+config EC11_TRIGGER_GLOBAL_THREAD
+    default y
+
 endif
