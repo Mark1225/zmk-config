@@ -1,16 +1,17 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = <
+            bindings = 
                 &kp Q  &kp W
                 &kp A  &kp S
             >;
+
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
     };
 };
